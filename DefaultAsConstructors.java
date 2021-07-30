@@ -7,7 +7,7 @@ class Bus
     int PassengerCarryingCapacity;
     Boolean AC;
     int MaxSpeed;
-    Bus(String BusName,String FuelType, int PassengerCarryingCapacity, Boolean AC, int MaxSpeed)
+    Bus(String BusName,String FuelType, int PassengerCarryingCapacity, Boolean AC, int MaxSpeed)       //Default Constructors
     {
         this.BusName = BusName;
         this.FuelType = FuelType;
